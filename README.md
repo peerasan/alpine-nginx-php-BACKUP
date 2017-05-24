@@ -23,5 +23,5 @@ map your website path to the container
 ### Support or Contact
 There is no any Support. We use the project for internal development. Thanks
 
-Dootvmedia | ThaiLivestream | Airbondstore
+<a href="http://www.dootvmedia.com" target="_blank">Dootvmedia</a> | <a href="http://www.thailivetream.com"  target="_blank">ThaiLivestream</a>| <a href="http://www.airbondstore.com"  target="_blank">Airbondstore</a>
 
