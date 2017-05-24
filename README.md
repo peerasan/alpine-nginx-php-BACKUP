@@ -12,9 +12,11 @@ Pleae note: This is base on stable repository. So the version may incorrect.
 
 ### How to use
 <code>docker run -p 80:80 -h nginx -d patrickz/alpine-nginx-php</code>
+
 simple command
 
 <code>docker run -p 80:80 -v /home/apps:/app -h nginx -d patrickz/alpine-nginx-php</code>
+
 run web server with your files
 
 
