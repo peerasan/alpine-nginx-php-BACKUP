@@ -17,7 +17,7 @@ simple command
 
 <code>docker run -p 80:80 -v /home/apps:/app -h nginx -d patrickz/alpine-nginx-php</code>
 
-run web server with your files
+map your website path to the container
 
 
 ### Support or Contact
