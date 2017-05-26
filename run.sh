@@ -1,5 +1,6 @@
 #!/bin/sh
 
-/usr/sbin/php-fpm7;
-/usr/bin/php-fpm;
-/usr/sbin/nginx -g "daemon off;"
+chown -Rf nginx:nginx /appps
+
+# Start supervisord and services
+/usr/bin/supervisord -n -c /etc/supervisord.conf

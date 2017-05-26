@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.5
 
 LABEL maintainer "Peerasan Buranasanti <peerasan@gmail.com>"
 LABEL version="1.0"
@@ -7,7 +7,7 @@ LABEL description="Minimalist Alpine + Nginx + PHP (PHP5 & PHP7)"
 
 #RUN apk upgrade -U && apk --update --repository=http://dl-4.alpinelinux.org/alpine/edge/testing --repository=http://dl-4.alpinelinux.org/alpine/edge/main add \
 RUN apk upgrade -U && apk --update add \
-	nginx \
+	supervisor nginx \
 	php5 php5-fpm php5-json php5-mysqli php5-pdo_mysql php5-openssl\
 	php7 php7-fpm php7-session php7-json php7-mysqli php7-mbstring
 
