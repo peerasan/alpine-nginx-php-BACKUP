@@ -8,8 +8,6 @@ Minimalist Alpine + Nginx + PHP (PHP5 & PHP7)
 - PHP5: 5.6.30
 - PHP7: 7.0.16
 
-Pleae note: This is base on stable repository. So the version may incorrect.
-
 ### How to use
 <code>docker run -p 80:80 -h nginx -d patrickz/alpine-nginx-php</code>
 

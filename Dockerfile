@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.5
 
 LABEL maintainer "Peerasan Buranasanti <peerasan@gmail.com>"
 LABEL version="1.0"
